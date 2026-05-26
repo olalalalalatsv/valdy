@@ -1,0 +1,53 @@
+# Role
+You are an expert Frontend Developer and UI/UX Designer specializing in modern, high-conversion landing pages for premium service businesses.
+
+# Goal
+Redesign and rebuild the existing website (https://valdi-web.replit.app/) to make it look beautiful, modern, and technological. The current site is a construction/renovation company landing page ("Valdi").
+
+# Tech Stack
+- Framework: React (Vite)
+- Styling: Tailwind CSS
+- Icons: Lucide React
+- Animations: Framer Motion (for smooth scroll animations and interactions)
+- Fonts: Google Fonts (Inter for body, Unbounded or Montserrat for headings)
+
+# Design System & Aesthetic
+1. **Theme:** "Modern Tech & Premium Construction". Use a clean, sophisticated look.
+2. **Color Palette:**
+   - Primary Background: Very light gray (#F8F9FA) or White for a clean look, OR Dark Mode option with Deep Charcoal (#121212). Let's stick to a Light Premium theme for better trust in construction.
+   - Accent Color: A sophisticated Electric Blue (#2563EB) or Deep Emerald Green (#059669) for buttons and highlights. Avoid cheap orange/yellow.
+   - Text: Dark Slate (#1E293B) for headings, Gray (#64748B) for body text.
+3. **Typography:**
+   - Headings: Bold, large, tight tracking. Use 'Unbounded' or 'Montserrat'.
+   - Body: Clean, readable 'Inter' or 'Manrope'.
+4. **UI Elements:**
+   - Cards: White background, subtle shadow (`shadow-lg`), rounded corners (`rounded-2xl`). Hover effects: slight lift (`-translate-y-1`) and shadow increase.
+   - Buttons: Rounded full (`rounded-full`), gradient backgrounds or solid accent color, smooth transition on hover.
+   - Images: High-quality, object-cover, rounded corners. Use placeholders from Unsplash with keywords like "modern interior", "construction site", "architectural detail".
+
+# Structure & Content Improvements
+1. **Navbar:** Sticky, glassmorphism effect (`backdrop-blur-md`). Logo on left, links in center, CTA button "Get Estimate" on right. Mobile hamburger menu.
+2. **Hero Section:** Full height (`min-h-screen`). Large bold headline: "Ремонт будущего: Точно в срок, Без скрытых платежей". Subheadline. Two buttons: "Calculate Cost" (Primary) and "View Projects" (Secondary/Outline). Background: Subtle abstract geometric pattern or high-end interior image with overlay.
+3. **Features Grid:** Instead of a simple list, use a bento-grid style layout for features like "Guarantee 24 months", "Transparent Estimate", etc. Use Lucide icons for each.
+4. **Services:** Card-based layout. Each card has an icon, title, price starting from, and a "Learn More" link.
+5. **Projects Portfolio:** A masonry grid or a horizontal scroll slider. Each project card shows image, title, area, and budget. Add a filter by category (Apartment, Cottage, Office).
+6. **Testimonials:** Clean cards with user avatar, name, and star rating.
+7. **Contact Form:** Modern form with floating labels. Fields: Name, Phone, Object Type (Select), Comment. Add a privacy policy checkbox.
+8. **Footer:** Minimalist. Links, contacts, social icons.
+
+# Specific Instructions
+- Ensure the site is fully responsive (Mobile-first approach).
+- Add smooth scroll behavior.
+- Use Framer Motion to animate sections as they enter the viewport (fade up).
+- Keep the existing Russian content but improve the hierarchy and spacing.
+- Make sure the "Call to Action" buttons are prominent throughout the page.
+
+# Execution Steps
+1. Set up the React + Vite + Tailwind project.
+2. Install dependencies: `framer-motion`, `lucide-react`.
+3. Create reusable components: `Button`, `Section`, `Card`, `Navbar`, `Footer`.
+4. Build each section based on the structure above.
+5. Populate with the existing content from the original site but styled modernly.
+6. Test responsiveness.
+
+Please start by creating the project structure and the main App component with the Navbar and Hero section.

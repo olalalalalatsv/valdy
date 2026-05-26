@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "6SUZgdNGj9X0SwWPeHqff"
+uri = "file://artifacts/construction-site/src/assets/house1.png"
+type = "image"
+title = "Modern house exterior 1"
+
+[[generated]]
+id = "ntidm2lH67PGuukleGLuK"
+uri = "file://artifacts/construction-site/src/assets/house2.png"
+type = "image"
+title = "Modern house exterior 2"
+
+[[generated]]
+id = "EfF8atFQF5JVJwlPW8z7Y"
+uri = "file://artifacts/construction-site/src/assets/house3.png"
+type = "image"
+title = "Modern house exterior 3"
+
+[[generated]]
+id = "3T-PFe5vY5W5CDPvzt5EO"
+uri = "file://artifacts/construction-site/src/assets/interior1.png"
+type = "image"
+title = "Apartment interior 1"
+
+[[generated]]
+id = "u2lVskrRPZSL6Ygx4Dyki"
+uri = "file://artifacts/construction-site/src/assets/interior2.png"
+type = "image"
+title = "Apartment interior 2"
+
+[[generated]]
+id = "6Vins464FQWUpQ1hI_5ym"
+uri = "file://artifacts/construction-site/src/assets/interior3.png"
+type = "image"
+title = "Apartment interior 3"
