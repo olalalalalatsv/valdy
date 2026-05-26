@@ -44,6 +44,9 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
+    // Vercel/Rollup sometimes fails to map TS source positions when reporting errors.
+    // Disabling sourcemaps avoids hard failures from sourcemap resolution.
+    sourcemap: false,
   },
   server: {
     port,
