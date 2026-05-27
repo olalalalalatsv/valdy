@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "installCommand": "pnpm install --no-frozen-lockfile",
-  "buildCommand": "pnpm --filter @workspace/construction-site run build",
+  "buildCommand": "pnpm --filter @olalalalalatsv/construction-site run build",
   "outputDirectory": "artifacts/construction-site/dist/public",
   "framework": null,
   "rewrites": [
